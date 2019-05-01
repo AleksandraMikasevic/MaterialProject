@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="common" template="/WEB-INF/common/classic.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="menu" value="" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/common/footer.jsp" />
+        <put-attribute name="head" value="/WEB-INF/common/head.jsp" />
+    </definition>
+    <definition name="index" extends="common">
+        <put-attribute name="title" value="Welcome" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerNL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+    </definition>
+    <definition name="login" extends="common">
+        <put-attribute name="title" value="Login" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerNL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+    </definition>
+    <definition name="all_weight_certificate" extends="common">
+        <put-attribute name="title" value="Weight certificates" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/all_weight_certificate.jsp" />
+    </definition>
+     <definition name="find_weight_certificate" extends="common">
+        <put-attribute name="title" value="Weight certificate" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/find_wight_certificate.jsp" />
+    </definition>
+    <definition name="all_materials" extends="common">
+        <put-attribute name="title" value="Materials" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/all_materials.jsp" />
+    </definition>
+    <definition name="all_suppliers" extends="common">
+        <put-attribute name="title" value="Suppliers" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/all_suppliers.jsp" />
+    </definition>
+    <definition name="main" extends="common">
+        <put-attribute name="title" value="Welcome" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/main.jsp" />
+    </definition>
+    <definition name="add_material" extends="common">
+        <put-attribute name="title" value="Add material" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/add_material.jsp" />
+    </definition>
+    <definition name="find_material" extends="common">
+        <put-attribute name="title" value="Material" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/find_material.jsp" />
+    </definition>
+    <definition name="remove_material" extends="common">
+        <put-attribute name="title" value="Remove material" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/remove_material.jsp" />
+    </definition>
+    <definition name="update_material" extends="common">
+        <put-attribute name="title" value="Update material" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/update_material.jsp" />
+    </definition>
+    <definition name="all_goods_received_notes" extends="common">
+        <put-attribute name="title" value="Goods received notes" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/all_goods_received_notes.jsp" />
+    </definition>
+    <definition name="add_goods_received_note" extends="common">
+        <put-attribute name="title" value="Add goods received note" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/add_goods_received_note.jsp" />
+    </definition>
+    <definition name="remove_goods_received_note" extends="common">
+        <put-attribute name="title" value="Remove goods received note" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/remove_goods_received_note.jsp" />
+    </definition>
+    <definition name="update_goods_received_note" extends="common">
+        <put-attribute name="title" value="Update goods received note" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/update_goods_received_note.jsp" />
+    </definition>
+    <definition name="find_goods_received_note" extends="common">
+        <put-attribute name="title" value="Goods received note" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/find_goods_received_note.jsp" />
+    </definition>
+    <definition name="add_goods_received_items" extends="common">
+        <put-attribute name="title" value="Add item" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/add_goods_received_items.jsp" />
+    </definition>
+    <definition name="change_goods_received_items" extends="common">
+        <put-attribute name="title" value="Add item" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/change_goods_received_items.jsp" />
+    </definition>
+    <definition name="goods_received_note_item_info" extends="common">
+        <put-attribute name="title" value="Add item" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/goods_received_note_item_info.jsp" />
+    </definition>
+    <definition name="change_goods_received_note_item_info" extends="common">
+        <put-attribute name="title" value="Goods received note item" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/change_goods_received_note_item_info.jsp" />
+    </definition>
+    <definition name="add_supplier" extends="common">
+        <put-attribute name="title" value="Add supplier" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/add_supplier.jsp" />
+    </definition>
+    <definition name="find_supplier" extends="common">
+        <put-attribute name="title" value="Supplier" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/find_supplier.jsp" />
+    </definition>
+    <definition name="remove_supplier" extends="common">
+        <put-attribute name="title" value="Delete supplier" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/remove_supplier.jsp" />
+    </definition>
+    <definition name="update_supplier" extends="common">
+        <put-attribute name="title" value="Update supplier" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/update_supplier.jsp" />
+    </definition>
+    <definition name="all_materials_graph" extends="common">
+        <put-attribute name="title" value="Graphs" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/all_materials_graph.jsp" />
+    </definition>
+        <definition name="find_employee" extends="common">
+        <put-attribute name="title" value="Employee" />
+        <put-attribute name="menu" value="/WEB-INF/common/headerL.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/find_employee.jsp" />
+    </definition>
+</tiles-definitions>
